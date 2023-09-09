@@ -39,7 +39,7 @@ void task() {
                 push(&head1, &tail1, element);
                 break;
             case 2:
-                printf("\nEnter the element you wanna push to the first stack: ");
+                printf("\nEnter the element you wanna push to the second stack: ");
 
                 while (!scanf("%d", &element) || element > 1000000 || element < -10000000 || getchar() != '\n') {
                     printf("Wrong input. Try again.\n");
